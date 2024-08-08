@@ -18,5 +18,16 @@ int main(){
     }
     while(i<20);
 
+    // 
+
+    // if(cin>>i){
+    //     cout<<i;
+    // }
+
+    if(cout<<"HII"){
+        cout<<'HII';
+    }
+
+
     return 0;
 }
