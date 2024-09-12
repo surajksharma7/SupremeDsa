@@ -41,5 +41,8 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "files.autoSave": "afterDelay",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSurroundingLinesStyle": "all"
 }
