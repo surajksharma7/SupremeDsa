@@ -29,9 +29,9 @@ int main() {
 
     // copy vector 
     vector<int>data4(data3);
-    // print(data4);
-    // cout<<data4[0];
-    // cout<<data4[data4.size() -1];
+    print(data4);
+    cout<<data4[0];
+    cout<<data4[data4.size() -1];
     cout<<data4.front();
     cout<<endl<<data4.back()<<endl;
     printMethod(data4);
