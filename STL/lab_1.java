@@ -2,15 +2,17 @@ import java.util.Scanner;
 
 public class lab_1{
 
-    int minArray(int arr[],int size){
-        int minimum = arr[0];
-
+    void minArray(int arr[],int size){
+        int temp;
         for(int i = 0;i<size;i++){
-            if(minimum>arr[i]){
-                arr[i] = minimum;
+            for(int j = i+1;j<size;j++){
+            if(arr[i] > arr[j]){
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j]  = temp; 
             }
         }
-        return minimum ;
+    }
     }
 
     public static void main(String[] args) {
@@ -25,11 +27,9 @@ public class lab_1{
             System.out.println("enter value of arr " + i );
             number[i] = sc.nextInt(); 
         }
+        
         for(int i=0;i<size;i++){
             System.out.print(number[i]);
         }
-        lab_1 var = new lab_1();
-        int value = var.minArray(number,size);
-        System.out.println("the lowest value int the array is " +value );
     }
 }
