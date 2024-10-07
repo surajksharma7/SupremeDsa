@@ -1,0 +1,11 @@
+
+git init -->  git start karne ke liye 
+
+git status -->  jo modification hue hai unke overview ke liye 
+
+git add . / git add file name --> file add karne ke liye 
+
+git commit -m 'initial commit' --> push ke time jo file mein message show hogi uske liye 
+
+git push --> file ko push karne ke liye 
+
