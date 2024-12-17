@@ -1,4 +1,3 @@
-// merge tow arrays 
 #include<iostream>
 #include<vector>
 using namespace std;
