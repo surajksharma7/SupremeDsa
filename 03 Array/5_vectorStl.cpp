@@ -44,5 +44,7 @@ int main() {
 
     cout << myVec.capacity() << endl;
     cout << myVec.size() << endl;
+
     return 0;
+    
 }
